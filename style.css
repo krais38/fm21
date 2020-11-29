@@ -128,4 +128,11 @@ button {
         top: initial;
         padding: 5vh 1em;
     }
+    .fa.fa-refresh {
+        position: relative;
+        
+        width: 100%;
+        color: white;
+        padding-bottom: 2vh;
+    }
 }
