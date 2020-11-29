@@ -30,7 +30,18 @@ body {
     bottom: 5vh;
     right: 5vh;
 }
-
+.cities {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+}
+.prague img {
+    width: 150%;
+}
+.prague  {
+    margin-left: 5vw;
+    display: none;
+}
 h1 {
     color: transparent;
     font-size: 3em;
@@ -140,5 +151,8 @@ button {
         width: 100%;
         color: white;
         padding-bottom: 2vh;
+    }
+    .cities {
+        display: none;
     }
 }

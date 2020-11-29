@@ -291,7 +291,7 @@ function Country () {
     var randomItem = country[Math.floor(Math.random()*country.length)];
     document.getElementById("countryName").innerHTML = randomItem
     
-    if (randomItem ==="Czech Republic") {document.getElementById("genCzech").style.display = "block";} else {document.getElementById("genCzech").style.display = "none";};
+    if (randomItem ==="Czech Republic") {document.getElementById("genCzech").style.display = "block";document.getElementById("prague").style.display = "initial";} else {document.getElementById("genCzech").style.display = "none";};
     if (randomItem ==="Germany") {document.getElementById("genGerman").style.display = "block";} else{document.getElementById("genGerman").style.display = "none";};
     if (randomItem ==="England") {document.getElementById("genEnglish").style.display = "block";} else{document.getElementById("genEnglish").style.display = "none";};
     if (randomItem ==="France") {document.getElementById("genFrench").style.display = "block";} else{document.getElementById("genFrench").style.display = "none";};
