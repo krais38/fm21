@@ -18,7 +18,7 @@ body {
 }
 
 .intro {
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 .intro img {
@@ -44,7 +44,7 @@ h1 {
 #again1, #again2 {display: none;}
 
 .country {
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 @keyframes blur {
 	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
