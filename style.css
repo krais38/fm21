@@ -106,3 +106,26 @@ button {
     text-align: center;
     margin: 0 auto;
 }
+
+@media screen and (max-width:768px) {
+    button {
+        font-size: .8em;
+        line-height: 1em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .intro {
+        margin-top: 1vh;
+    }
+    .intro img{
+        height: 10vh;
+    }
+    .paypal {
+        position: relative;
+        padding-top: 5vh;
+        right: initial;
+        top: initial;
+        padding: 5vh 1em;
+    }
+}
