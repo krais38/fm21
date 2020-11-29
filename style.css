@@ -106,7 +106,13 @@ button {
     text-align: center;
     margin: 0 auto;
 }
-
+.fa.fa-refresh {
+    position: relative;
+    
+    width: 100%;
+    color: white;
+    padding-bottom: 1vh;
+}
 @media screen and (max-width:768px) {
     button {
         font-size: .8em;
