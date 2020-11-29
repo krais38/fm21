@@ -1,0 +1,108 @@
+#genCzech, #genCzech1, #genCzech2, #genGerman, #genEnglish, #genFrench, #genItalian, #genSpanish {
+    display: none;
+}
+.team > button {
+    display: none;
+}
+
+.divize > button {
+    display: none;
+}
+
+body {
+    background-color: #321450;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro {
+    margin-top: 10vh;
+}
+
+.intro img {
+    height: 10vh;
+}
+
+.paypal {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vh;
+}
+
+h1 {
+    color: transparent;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    color: transparent;
+	animation: blur 30s ease-in forwards;
+	-webkit-animation: blur 30s ease-in forwards;
+}
+#again1, #again2 {display: none;}
+
+.country {
+    margin-top: 5vh;
+}
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 0px #fff;}
+	100%		{text-shadow:  0 0 0px #fff;} 
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 0px #fff;}
+	100%		{text-shadow:  0 0 0px #fff;} 
+}
+
+.divize {
+    text-align: center;
+}
+.team {
+    text-align: center;
+}
+
+button {
+    border-color: #D2FF00 !important;
+    background-color: #D2FF00 !important;
+    color: #321450 !important;
+    opacity: 1 !important;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    padding: .5rem 2.5rem .6875rem;
+    transform: skew(-18deg);
+    border-radius: 0 !important;
+    cursor: pointer;
+    padding: .75rem 2rem .625rem;
+    transition: background 200ms,color 200ms,border 200ms;
+    text-align: center;
+    text-decoration: none !important;
+    border: 2px solid #000;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: "gt_americastandard_bold","Arial Black","Arial Bold",sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}

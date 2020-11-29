@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="intro">
+      <img src="football-manager-white.svg" alt="">
+      <p>Season 2020/21</p>
+      <h2>Not sure what team to take on for your next save?</h2>
+      <p>Look no further! This handy tool will pick for you!</p>
+  </div>
+  <div class="country">
+    <button onclick="Country();" id="genCountry">Select Country</button>
+    <h1 id="countryName"></h1>
+  </div>  
+ 
+  <div class="divize">
+    <button class="animation" onclick="CzechDiv()" id="genCzech">Select Division</button>
+        
+    <button class="animation" onclick="GerDiv()" id="genGerman">Select Division</button>
+
+    <button class="animation" onclick="EngDiv()" id="genEnglish">Select Division</button>
+
+    <button class="animation" onclick="FraDiv()" id="genFrench">Select Division</button>
+
+    <button class="animation" onclick="ItaDiv()" id="genItalian">Select Division</button>
+
+    <button class="animation" onclick="SpaDiv()" id="genSpanish">Select Division</button>
+    <p id="again1">Don't like it? Ty again..</p>
+    <h1 id="divName"></h1>
+  </div>
+
+  <div class="team">
+    <button class="animation" onclick="CzechTeam1()" id="genCzech1">Select Team</button>
+    <button class="animation" onclick="CzechTeam2()" id="genCzech2">Select Team</button>
+
+    <button class="animation" onclick="GerTeam1()" id="genGer1">Select Team</button>
+    <button class="animation"  onclick="GerTeam2()" id="genGer2">Select Team</button>
+
+    <button class="animation" onclick="EngTeam1()" id="genEng1">Select Team</button>
+    <button class="animation" onclick="EngTeam2()" id="genEng2">Select Team</button>
+
+    <button class="animation" onclick="FraTeam1()" id="genFra1">Select Team</button>
+    <button class="animation" onclick="FraTeam2()" id="genFra2">Select Team</button>
+
+    <button class="animation" onclick="ItaTeam1()" id="genIta1">Select Team</button>
+    <button class="animation" onclick="ItaTeam2()" id="genIta2">Select Team</button>
+
+    <button class="animation" onclick="SpaTeam1()" id="genSpa1">Select Team</button>
+    <button class="animation" onclick="SpaTeam2()" id="genSpa2">Select Team</button>
+    <p id="again2">Don't like it? Ty again..</p>
+    <h1 id="teamName"></h1>
+  </div>
+
+  <form class="paypal" action="https://www.paypal.com/donate" method="post" target="_top">
+    <p>Want to buy me a cup of coffee? Thanky you! ♥</p>
+    <input type="hidden" name="hosted_button_id" value="B36CTU7DPT9EC" />
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    <img alt="" border="0" src="https://www.paypal.com/en_CZ/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    
+
+  <script src="picker3.js"></script>
+</body>
+</html>
